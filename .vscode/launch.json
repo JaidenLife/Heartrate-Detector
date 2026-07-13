@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/heartrate-esp32/target/xtensa-esp32-espidf/debug/heartrate-esp32",
+            "args": [],
+            "cwd": "${workspaceRoot}/heartrate-esp32"
+        }
+    ]
+}
